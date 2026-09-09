@@ -1,0 +1,29 @@
+# Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+# SPDX-License-Identifier: BSD-3-Clause-Clear
+
+# Runtime dependencies for the Docker image. PyTorch is installed in the
+# Dockerfile from the CUDA-specific PyTorch index before these packages.
+
+# ClevrSkills / ManiSkill-compatible dependencies
+gymnasium==0.29.1
+mplib==0.2.1
+pysdf==0.1.9
+omegaconf==2.3.0
+decord==0.6.0
+natsort==8.4.0
+
+# Scratchpad VLA evaluation dependencies
+absl-py==2.1.0
+accelerate==1.3.0
+matplotlib==3.8.4
+peft==0.14.0
+pillow==10.4.0
+sentencepiece==0.2.0
+tensorflow-cpu==2.15.1
+torchdata==0.11.0
+tqdm==4.66.5
+transformers==4.48.3
+
+# Kept for compatibility with optional OpenVLA/server imports.
+fastapi==0.115.6
+uvicorn==0.34.0

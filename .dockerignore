@@ -1,0 +1,50 @@
+.git/
+.gitignore
+.dockerignore
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.tox/
+.nox/
+
+.venv/
+venv/
+env/
+ENV/
+
+# Local outputs and logs
+eval_runs/
+logs/
+*.log
+
+# Model checkpoints and generated data
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Media artifacts
+*.mp4
+*.avi
+*.mov
+*.gif
+
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

@@ -70,6 +70,8 @@ NUM_EPISODES=1 EP_LENGTH=10 VERBOSE=False \
 bash scripts/eval_touchpick.sh
 ```
 
+The BSD-3 Clear License of this repository also applies to the model weights.
+
 ## Usage
 The main evaluation entrypoint is [eval_scratchpad_vla.py](eval_scratchpad_vla.py). In practice, this repository is intended to be driven through the task-specific shell scripts in [scripts](scripts), which populate the Python path, resolve the checkpoint to evaluate, and configure rollout parameters before invoking the evaluator.
 
